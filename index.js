@@ -6,7 +6,7 @@ let dhaniya=document.querySelector("#dhaniya")
 let chaipatti=document.querySelector("#chaipatti")
 
 lalMirch.addEventListener("click",()=>{
-  window.open("https://www.flipkart.com/raunak-rajasthani-dry-red-chilli-whole-sabut-laal-mirch-500g/p/itmbb962f2e1e2f8")
+  location.assign("store.html")
 })
 haldi.addEventListener("click",()=>{
   window.open("https://www.flipkart.com/r-d-d-masala-rajasthani-turmeric-powder/p/itm1d5ae138eb48f")
