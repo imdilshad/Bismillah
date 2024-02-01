@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="returns&order.css">
+    <title>Order and Returns</title>
+</head>
+<body>
+    <div class="container">
+        <div class="order-container">
+            <h2>Order Details</h2>
+            <p>Your order details are displayed below:</p>
+            <!-- Display order details here based on your implementation -->
+        </div>
+
+        <div class="return-container">
+            <h2>Returns</h2>
+            <p>If you would like to return an item, please fill out the form below:</p>
+            <form id="return-form">
+                <label for="order-number">Order Number:</label>
+                <input type="text" id="order-number" name="order-number" required>
+
+                <label for="reason">Reason for Return:</label>
+                <textarea id="reason" name="reason" rows="4" required></textarea>
+
+                <button type="submit">Submit Return</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
