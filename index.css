@@ -249,3 +249,45 @@ span{
   a{
     color: #fff;
   }
+ @media screen and (max-width:500px) {
+  .shop-section{
+    flex-direction: column;
+   }
+   .box{
+     width: 250px;
+     height: 370px;
+   }
+   .box-img{
+     height: 250px;
+     width: 250px;
+     background-size: contain;
+   }
+   .footer-panel2{
+     flex-direction: column;
+     gap: 1rem;
+   }
+   .navigation{
+     width: 200px;
+     padding: 10px;
+     text-align: left;
+   }
+   .form{
+     
+     width: 100%;
+   }
+   .navo{
+     display: none;
+   }
+   .hero{
+     height: 150px;
+   }
+   .panel{
+     height: 20px;
+   }
+   hr{
+     display: none;
+   }
+   .social{
+     gap:1rem
+   }
+ }
